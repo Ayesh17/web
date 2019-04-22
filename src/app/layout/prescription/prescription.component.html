@@ -1,0 +1,28 @@
+<div [@routerTransition]>
+    <app-page-header [heading]="'Prescription'" [icon]="'fa-edit'"></app-page-header>
+
+    <div class="row">
+        <div class="col-lg-6">
+
+            <form role="form">
+                <fieldset class="form-group">
+                    <label>Name of the patient</label>
+                    <input class="form-control" placeholder="Enter the name of the patient">
+                </fieldset>
+
+                <fieldset class="form-group">
+                    <label>Special Notes</label>
+                    <input class="form-control">
+                </fieldset>
+
+                <div class>  
+                    <button type="submit" class="btn btn-secondary"> Submit Button </button>
+                    <button type="reset" class="btn btn-secondary"> Reset Button </button>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+    <!-- /.row -->
+</div>
